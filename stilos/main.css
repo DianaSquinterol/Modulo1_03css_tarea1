@@ -1,0 +1,29 @@
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+}P{
+    color: rgb(31, 34, 34);
+}
+
+.parrafo:hover{
+    font-size: 30px;
+    background-color: aqua;
+    color: blueviolet;
+}
+
+h1:hover{
+    background-color: aqua;
+}
+
+.parrafo::first-letter{
+    color: brown;
+    font-size: 30px;
+    border: 2px solid red;
+}
+
+.parrafo::first-line{
+    background-color: rgb(110, 110, 187);
+}
+.parrafo::first-line{
+    font-style: italic;
+}
